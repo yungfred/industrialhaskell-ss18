@@ -1,0 +1,6 @@
+flags: {}
+allow-different-user: true
+packages:
+- .
+extra-deps:
+resolver: lts-11.8
