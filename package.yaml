@@ -43,7 +43,7 @@ executables:
     - -with-rtsopts=-N
     - -ferror-spans
     dependencies:
-    - haskell-party
+    - multiplayer-connectfour
     - network
     - bytestring
     - stm
@@ -65,7 +65,7 @@ executables:
     - -with-rtsopts=-N
     - -ferror-spans
     dependencies:
-    - haskell-party
+    - multiplayer-connectfour
     - network
     - bytestring
     - stm
@@ -89,4 +89,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - haskell-party
+    - multiplayer-connectfour
